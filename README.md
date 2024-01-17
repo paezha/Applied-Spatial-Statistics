@@ -28,25 +28,24 @@ well as all packages used in the book.
 
 3.  Download the Rtools43 installer (Windows) and run it to install:
     <https://cran.r-project.org/bin/windows/Rtools/rtools43/rtools.html>.
-    If using a Mac this may be achieved through installing Xcode
-    *untested*: <https://mac.r-project.org/tools/>
+    If using a Mac this may be achieved through installing Xcode (we don't have Macs so not sure if this works, but it should!): <https://mac.r-project.org/tools/>
 
 4.  Download the code as a .zip file from this repository:
     <https://github.com/paezha/Applied-Spatial-Statistics>. The
     repository contains a `renv.lock` file that specifies all the
     versions of the packages used in the webbook. Unzip the file and
-    store it in an apprioriate directory. Use this folder to work on the
+    store it in an apprioriate directory (NOT the Downloads folder). Use this folder to work on the
     course.
 
 5.  Open up the `.RProj` file called “Applied-Spatial-Statistics”. This
     will be the `R` project you will work in all course. This will
     launch RStudio.
 
-6.  Install your first `R` package “Renv”
+6.  Install your first `R` package “renv”
 
 <!-- -->
 
-    install.packages("Renv")
+    install.packages("renv")
 
 7.  Close Rstudio. Restart your computer.
 
@@ -68,13 +67,17 @@ If an individual library does not install, run:
 
 If this issue occurs again, repeat the above chunk.
 
-9.  Restart `R` by going to Session -\> Restart R. Now click the “+”
+9. Run renv::status() in the R Console. The output should show a table where the second and third columns are populated with "y" characters. This means the versions of packages on your system matches that specified by the renv.lock file. Congrats!
+
+10. Next, let's make sure you can knit PDF from templates. First, install TinyTex. Do this by running tinytex::install_tinytex() in the RStudio console.
+    
+11. Restart `R` by going to Session -\> Restart R. Now click the “+”
     green button and open a new “R Markdown” file. Select the 4th option
     in the left panel “From Template”. Select a template option from the
     {isdas} package. Each template is 1 chapter/activity in the webook.
     Give the template a name, say “my-template-chapter-1”.
 
-10. Knit the “my-template-chapter-1.Rmd” to a .pdf file by clicking the
+12. Knit the “my-template-chapter-1.Rmd” to a .pdf file by clicking the
     arrow on the “Knit” button and selecting “PDF”.
 
 You’ve just knitted your first PDF file! Congrats.
