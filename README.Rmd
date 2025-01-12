@@ -27,13 +27,15 @@ The repository provides all the infrastructure to replicate the environment used
 
 ## How to use this repository
 
-1. Install R (make sure to pick the correct operating system) - this is the programming language, it comes as a 'core package' here: https://cran.rstudio.com/
+1. Install R (make sure to pick the correct operating system) - this is the programming language, it comes as a ‘core package’ here: https://cran.rstudio.com. The environment uses R 4.4.2 Pile of Leaves.
 
-2. Install RStudio (make sure to pick the correct operating system) - this is the an IDE here: https://www.rstudio.com/products/rstudio/download/. 
+2. Install RStudio (make sure to pick the correct operating system) -&nbsp;this is the an IDE here: https://posit.co/download/rstudio-desktop/ 
 
-3. Download the Rtools43 installer (Windows) and run it to install: https://cran.r-project.org/bin/windows/Rtools/rtools43/rtools.html. If using a Mac this may be achieved through installing Xcode *untested*: https://mac.r-project.org/tools/
+3.&nbsp; If you are using a Windows system, download the Rtools44 installer (Windows) and run it to install: https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html
 
-4. Download the code as a .zip file from this repository: https://github.com/paezha/Applied-Spatial-Statistics. The repository contains a `renv.lock` file that specifies all the versions of the packages used in the webbook. Unzip the file and store it in an apprioriate directory. Use this folder to work on the course.
+4. Download the reproducible environment as a .zip file. To do so, right-click on the “code” button on the top-right corner and select “Download ZIP”. The compressed file contains a `renv.lock` file that specifies all the&nbsp;versions of the packages used in the webbook. Unzip the file and store it in an appropriate directory (NOT the Downloads folder). Use this folder to work on the course.
+
+4. Download the code as a .zip file from this repository: . The repository contains a `renv.lock` file that specifies all the versions of the packages used in the webbook. Unzip the file and store it in an appropriate directory. Use this folder to work on the course.
 
 5. Open up the `.RProj` file called "Applied-Spatial-Statistics". This will be the `R` project you will work in all course. This will launch RStudio.
 
