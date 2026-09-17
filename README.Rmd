@@ -27,11 +27,11 @@ The repository provides all the infrastructure to replicate the environment used
 
 ## How to use this repository
 
-1. Install R (make sure to pick the correct operating system) - this is the programming language, it comes as a ‘core package’ here: https://cran.rstudio.com. The environment uses R 4.4.2 Pile of Leaves.
+1. Install R (make sure to pick the correct operating system) - this is the programming language, it comes as a ‘core package’ here: https://cran.rstudio.com. The environment uses R 4.6.1 Happy Hop.
 
 2. Install RStudio (make sure to pick the correct operating system) -&nbsp;this is the an IDE here: https://posit.co/download/rstudio-desktop/ 
 
-3.&nbsp; If you are using a Windows system, download the Rtools44 installer (Windows) and run it to install: https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html
+3.&nbsp; If you are using a Windows system, download the Rtools45 installer (Windows) and run it to install: https://cran.r-project.org/bin/windows/Rtools/rtools45/rtools.html
 
 4. Download the reproducible environment as a .zip file. To do so, right-click on the “code” button on the top-right corner and select “Download ZIP”. The compressed file contains a `renv.lock` file that specifies all the&nbsp;versions of the packages used in the webbook. Unzip the file and store it in an appropriate directory (NOT the Downloads folder). Use this folder to work on the course.
 

@@ -4,6 +4,7 @@
 # A reproducible environment for the book An Introduction to Spatial Data Analysis and Statistics: A Course in R
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 This repository makes use of package
@@ -20,16 +21,15 @@ well as all packages used in the book.
 
 1.  Install R (make sure to pick the correct operating system) - this is
     the programming language, it comes as a ‘core package’ here:
-    <https://cran.rstudio.com>. The environment uses R 4.4.2 Pile of
-    Leaves.
+    <https://cran.rstudio.com>. The environment uses R 4.6.1 Happy Hop.
 
 2.  Install RStudio (make sure to pick the correct operating system)
     - this is the an IDE here:
     <https://posit.co/download/rstudio-desktop/>
 
-3.  If you are using a Windows system, download the Rtools44 installer
+3.  If you are using a Windows system, download the Rtools45 installer
 (Windows) and run it to install:
-<https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html>
+<https://cran.r-project.org/bin/windows/Rtools/rtools45/rtools.html>
 
 4.  Download the reproducible environment as a .zip file. To do so,
     right-click on the “code” button on the top-right corner and select
